@@ -1,0 +1,10 @@
+# KiCad Lock-Dateien und lokale Einstellungen
+*.lck
+*.prl
+
+# KiCad Backup-Ordner
+*-backups/
+
+# Systemdateien
+.DS_Store
+Thumbs.db

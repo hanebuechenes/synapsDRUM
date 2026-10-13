@@ -1,0 +1,198 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "80d97038-3cb8-4274-b21c-2a27dedf7068")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 24.13 23.495)
+		(size 55.88 58.42)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "4cbf227e-4421-478a-9d2e-fe31606c9582")
+		(property "Sheetname" "EurorackPower"
+			(at 24.13 22.7834 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "eurorackpower.kicad_sch"
+			(at 24.13 82.4996 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "drummah"
+				(path "/80d97038-3cb8-4274-b21c-2a27dedf7068"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 95.25 24.765)
+		(size 59.055 59.69)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "852f4e4b-c48e-4304-8f1a-05232e12b287")
+		(property "Sheetname" "kick"
+			(at 95.25 24.0534 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "kick.kicad_sch"
+			(at 95.25 85.0396 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "drummah"
+				(path "/80d97038-3cb8-4274-b21c-2a27dedf7068"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 30.48 103.505)
+		(size 40.005 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a1ccb1a0-f251-4ff6-8cf5-6907cefa58c9")
+		(property "Sheetname" "HiHat"
+			(at 30.48 102.7934 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "hihat.kicad_sch"
+			(at 30.48 133.2996 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "drummah"
+				(path "/80d97038-3cb8-4274-b21c-2a27dedf7068"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 168.91 25.4)
+		(size 41.275 48.26)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "eedd6029-ffaa-4c6c-b35c-4cca443a8300")
+		(property "Sheetname" "Snare"
+			(at 168.91 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "snare.kicad_sch"
+			(at 168.91 74.2446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "drummah"
+				(path "/80d97038-3cb8-4274-b21c-2a27dedf7068"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
