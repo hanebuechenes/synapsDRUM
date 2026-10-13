@@ -1,17 +1,19 @@
-synapsDRUM – 4-Kanal Analog Eurorack Drum Synthesizer
+# synapsDRUM – 4-Kanal Analog Eurorack Drum Synthesizer
 
-synapsDRUM ist ein analoger 4-Kanal Eurorack-Drum-Synthesizer, der klassische Percussion-Schaltkreise (wie Kick, Snare und Hi-Hat) in einem kompakten Modul vereint.
-Features
+synapsDRUM ist ein analoger 4-Kanal Eurorack-Drum-Synthesizer, der klassische Percussion-Schaltkreise (Kick, Snare, Hi-Hat) in einem kompakten Modul vereint.
 
-    4 integrierte Drum-Kanäle für klassische analoge Percussion-Sounds (Kick, Snare, Hi-Hat etc.).
+---
 
-    Twin-T Oszillatoren für druckvolle Kick-Töne.
+## Features
 
-    Duale Rauschgeneratoren und RC-Bandpassfilter für realistische Snares und metallische Hi-Hats.
+* **4 analoge Kanäle:** Dedizierte Schaltungen für klassische Percussion-Sounds.
+* **Twin-T Oszillatoren:** Für druckvolle Kick-Töne und tiefe Bässe.
+* **Rauschgenerator & Filter:** Duale Rauschquellen und RC-Bandpassfilter für realistische Snares und metallische Hi-Hats.
+* **SMD-Design:** Platzsparend und für zuverlässigen Aufbau im Eurorack optimiert.
 
-    SMD-Design für platzsparenden und zuverlässigen Aufbau im Eurorack-System.
+---
 
-Projektstruktur
+## Projektstruktur
 
 synapsDRUM/
 ├── kick.kicad_sch         # Schaltplan: Kick-Drum-Schaltung
@@ -20,23 +22,29 @@ synapsDRUM/
 ├── filter.kicad_sch       # Schaltplan: RC-Bandpassfilter & Shaping
 ├── drum.kicad_pcb         # KiCad PCB Layout
 ├── drum.kicad_pro         # KiCad Hauptprojekt
-└── .gitignore             # Git-Ausschlusskriterien für temporäre KiCad-Dateien
-Hardware & Design
+└── .gitignore             # Git-Ausschlusskriterien für temporäre Dateien
 
-Das Modul wurde in KiCad als modulares System aufgebaut, um die verschiedenen Percussion-Sektionen sauber zu trennen und klanglich zu optimieren.
-Voraussetzungen / Design-Tools
 
-    KiCad (Empfohlen: v7 oder neuer)
+## Hardware & Design
 
-    Passende Footprints und Bauteilbibliotheken für SMD-Bestückung
+Das Modul wurde in KiCad modular aufgebaut, um die verschiedenen Percussion-Sektionen sauber zu trennen und klanglich optimal anzupassen.
+Voraussetzungen & Tools
 
-Inbetriebnahme & Git
+    KiCad (Empfohlen: Version 7 oder neuer)
 
-Um das Projekt lokal zu klonen:
+    Passende SMD-Footprints und Bauteilbibliotheken
 
-git clone https://github.com/hanebuechenes/synapsDRUM.git
 
-Öffne anschließend die Datei drum.kicad_pro in KiCad, um das Layout oder die Schaltpläne anzupassen.
-Lizenz
+## Inbetriebnahme & Git
 
-Dieses Projekt ist unter der CERN Open Hardware Licence / MIT License veröffentlicht.
+Um das Projekt lokal zu klonen, nutze diesen Befehl im Terminal:
+
+git clone [https://github.com/hanebuechenes/synapsDRUM.git](https://github.com/hanebuechenes/synapsDRUM.git)
+
+Öffne anschließend die Datei drum.kicad_pro in KiCad.
+
+
+## Lizenz
+
+Veröffentlicht unter der CERN Open Hardware Licence / MIT License.
+
